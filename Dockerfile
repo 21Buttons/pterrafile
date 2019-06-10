@@ -11,3 +11,4 @@ RUN apk add git \
  && rm -rf /tmp/setup \
  && mkdir -p /app
 WORKDIR /app
+ENTRYPOINT pterrafile
